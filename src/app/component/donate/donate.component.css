@@ -1,0 +1,22 @@
+.structure {
+    width: 120px;
+    height: 36px;
+    margin: 10px 0 20px 10px;
+    background-color:#f9c910 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.structure:hover {
+    background-color:#bd990c ;
+}
+.structure:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: #0a3dab;
+    color: white;
+  }
+p {
+    margin: 10px;
+}

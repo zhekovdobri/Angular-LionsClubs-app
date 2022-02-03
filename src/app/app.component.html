@@ -1,0 +1,22 @@
+<div class="app">
+
+    <header>
+        <app-header>
+            <app-imagecomponent></app-imagecomponent>
+            <h1>Lions International</h1>
+            <h3>DuPont Lions Fondation</h3>
+        </app-header>
+    </header>
+
+    <nav>
+        <a class="button" routerLink="/home" routerLinkActive="activebutton">Home</a> 
+        <a class="button" routerLink="/about" routerLinkActive="activebutton">Our story</a> 
+        <a class="button" routerLink="/contact" routerLinkActive="activebutton">Start</a> 
+        <a class="button" routerLink="/donate" routerLinkActive="activebutton">Structure</a>
+    </nav>
+
+    <router-outlet></router-outlet>
+    <app-todos></app-todos>
+    <app-social></app-social>
+
+</div>

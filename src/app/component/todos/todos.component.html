@@ -1,0 +1,27 @@
+<div class="todos">
+
+    <form (submit) = "addTodo()">
+        <div class="flex">
+            <label class="item"><h4>New Member</h4></label>
+            <input class="item" type="submit" value="Join" class="todo-submit">
+        </div>
+        <input 
+        type="text"
+        name="inputTodo"
+        placeholder="Full Name..."
+        class="todo-input"
+        [(ngModel)] = "inputTodo"
+        >
+        <h3>New Members List</h3>
+    </form>
+
+    <div *ngFor="let todo of todos; let i = index;" class="todo {{ (todo.completed ? 'done' : '') }} ">
+        
+        <div class="id">{{ i }}</div>
+        
+        <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
+        
+        <button class="delete" (click)="deleteTodo(i)">Remove</button>
+
+    </div>
+</div>

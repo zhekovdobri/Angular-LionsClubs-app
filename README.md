@@ -24,7 +24,7 @@
 <br />
 
 ## Description
-Under construction..................../Dobri Zhekov/
+This Angular project was created with VSC. The project consist of 38.9% TypeScript,38.8% HTML, 22.3% CSS. The project contains the main app functionality. You can delete, add, strikethrough the names. When the page is loaded all changes disappeared. I added some hover effects which made the app more attractive and dynamic. Behind scenes this is a simple Todo list with delete, add and toggle functionality. The same as the Angular-DNB-app, to make the app more dynamic, I added carousel into the "start" menu bar. To make this possible I used bootsrap. 
 
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
